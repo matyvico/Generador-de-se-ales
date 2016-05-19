@@ -1,4 +1,4 @@
-# Generador-de-se-ales
+# Generador de señales
 Generador de señales basado en microcontrolador de Microchip (familia 18)
 
 # Requisitos
