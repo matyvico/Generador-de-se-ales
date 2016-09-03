@@ -1,0 +1,8 @@
+ÀÄTest serie
+   ÃÄMAIN  0/170  Ram=1
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@PSTRINGC_9600_31766_31767  0/36  Ram=2
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÀÄ@PUTCHARI_BIU_1  0/10  Ram=0
+   ÀÄRDA_isr  0/48  Ram=2

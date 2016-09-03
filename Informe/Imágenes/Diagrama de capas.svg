@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="806.94495"
+   height="750.84424"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Diagrama de capas.svg"
+   inkscape:export-filename="/home/matyvico/Grive/Electronica/Quinto Año/Técnicas Digitales III/Proyecto USB/Informe/Imágenes/Diagrama de capas.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path5399"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart"
+       style="overflow:visible">
+      <path
+         id="path5396"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6,0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path5378"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path5372"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Sstart"
+       style="overflow:visible">
+      <path
+         id="path5384"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <linearGradient
+       id="linearGradient3763"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3765" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="429.30696"
+     inkscape:cy="428.52741"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-center="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-28.211976,-163.72128)">
+    <text
+       sodipodi:linespacing="125%"
+       id="text5225"
+       y="255.56497"
+       x="183.25293"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"><tspan
+         id="tspan5227"
+         y="255.56497"
+         x="186.47949"
+         sodipodi:role="line">Software </tspan><tspan
+         id="tspan5229"
+         y="290.56497"
+         x="183.25293"
+         sodipodi:role="line">del sistema</tspan><tspan
+         y="325.56497"
+         x="183.25293"
+         sodipodi:role="line"
+         id="tspan5231">USB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="183.1441"
+       y="502.15668"
+       id="text5213"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="186.37067"
+         y="502.15668"
+         id="tspan5217">Software </tspan><tspan
+         sodipodi:role="line"
+         x="183.1441"
+         y="537.15668"
+         id="tspan5221">cliente</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.09067321;stroke-opacity:1"
+       id="rect5233"
+       width="163.48074"
+       height="114.90932"
+       x="102.66129"
+       y="223.01006" />
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="182.89615"
+       y="712.28168"
+       id="text5237"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan5243"
+         sodipodi:role="line"
+         x="182.89615"
+         y="712.28168">Controlador</tspan><tspan
+         sodipodi:role="line"
+         x="182.89615"
+         y="747.28168"
+         id="tspan5249">del HOST</tspan><tspan
+         sodipodi:role="line"
+         x="182.89615"
+         y="782.28168"
+         id="tspan5251">USB</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5253"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"><flowRegion
+         id="flowRegion5255"><rect
+           id="rect5257"
+           width="368.57144"
+           height="618.57141"
+           x="40"
+           y="190.93361" /></flowRegion><flowPara
+         id="flowPara5259"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="506.19693"
+       y="499.9129"
+       id="text5269"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan5275"
+         sodipodi:role="line"
+         x="506.19693"
+         y="499.9129">Dispositivo</tspan><tspan
+         sodipodi:role="line"
+         x="506.19693"
+         y="534.9129"
+         id="tspan5312">lógico USB</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5261"
+       y="288.7196"
+       x="508.14291"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"><tspan
+         id="tspan5265"
+         y="288.7196"
+         x="508.14291"
+         sodipodi:role="line">Función</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5281"
+       y="727.9364"
+       x="508.48267"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"><tspan
+         id="tspan5287"
+         y="727.9364"
+         x="511.70923"
+         sodipodi:role="line">Interfaz </tspan><tspan
+         y="762.9364"
+         x="508.48267"
+         sodipodi:role="line"
+         id="tspan5319">del USB</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5291"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"><flowRegion
+         id="flowRegion5293"><rect
+           id="rect5295"
+           width="3.5355339"
+           height="53.033009"
+           x="451.03311"
+           y="277.0701" /></flowRegion><flowPara
+         id="flowPara5297"></flowPara></flowRoot>    <path
+       inkscape:connector-curvature="0"
+       id="path5362"
+       d="m 30.211976,393.60409 c 633.861754,0 633.861754,0 633.861754,0"
+       style="fill:none;stroke:#000000;stroke-width:3.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:16, 4, 2, 4;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart);marker-mid:none;marker-end:url(#Arrow2Mend)"
+       d="m 273.24628,281.11071 c 143.94674,0 144.45181,0 144.45181,0"
+       id="path5366"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7684"
+       d="m 271.22596,512.6265 c 143.94674,0 144.45181,0 144.45181,0"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:16, 4, 2, 4;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart);marker-mid:none;marker-end:url(#Arrow2Mend)" />
+    <rect
+       y="200.31746"
+       x="70.376678"
+       height="160.29451"
+       width="228.04997"
+       id="rect7690"
+       style="fill:none;stroke:#000000;stroke-width:1.52145123;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:9.12870741, 1.52145123;stroke-dashoffset:0" />
+    <rect
+       y="451.92249"
+       x="102.66129"
+       height="114.90932"
+       width="163.48074"
+       id="rect7692"
+       style="fill:none;stroke:#000000;stroke-width:1.09067321;stroke-opacity:1" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.52145123;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:9.12870741, 1.52145123;stroke-dashoffset:0"
+       id="rect7694"
+       width="228.04997"
+       height="160.29451"
+       x="70.376678"
+       y="429.32364" />
+    <rect
+       y="223.01006"
+       x="425.10208"
+       height="114.90932"
+       width="163.48074"
+       id="rect7708"
+       style="fill:none;stroke:#000000;stroke-width:1.09067321;stroke-opacity:1" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.09067321;stroke-opacity:1"
+       id="rect7712"
+       width="163.48074"
+       height="114.90932"
+       x="425.10208"
+       y="451.98398" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.09067321;stroke-opacity:1"
+       id="rect7716"
+       width="163.48074"
+       height="114.90932"
+       x="102.66129"
+       y="678.19666" />
+    <rect
+       y="655.50403"
+       x="70.376678"
+       height="160.29451"
+       width="228.04997"
+       id="rect7718"
+       style="fill:none;stroke:#000000;stroke-width:1.52145123;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:9.12870741, 1.52145123;stroke-dashoffset:0" />
+    <rect
+       y="678.21027"
+       x="425.10208"
+       height="114.90932"
+       width="163.48074"
+       id="rect7720"
+       style="fill:none;stroke:#000000;stroke-width:1.09067321;stroke-opacity:1" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.52145123;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:9.12870761, 1.52145125;stroke-dashoffset:0"
+       id="rect7722"
+       width="228.04997"
+       height="615.51752"
+       x="392.81744"
+       y="200.37312" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart);marker-mid:none;marker-end:url(#Arrow2Mend)"
+       d="m 271.22596,738.6265 c 143.94674,0 144.45181,0 144.45181,0"
+       id="path7737"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 30.211976,621.29247 c 633.861754,0 633.861754,0 633.861754,0"
+       id="path7749"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7751"
+       d="m 184.55994,572.51819 c 0,98.52566 0,98.87135 0,98.87135"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart);marker-mid:none;marker-end:url(#Arrow2Mend)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart);marker-mid:none;marker-end:url(#Arrow2Mend)"
+       d="m 504.55994,572.51819 c 0,98.52566 0,98.87135 0,98.87135"
+       id="path7753"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart);marker-mid:none;marker-end:url(#Arrow2Mend)"
+       d="m 184.55994,345.70113 c 0,98.52566 0,98.87135 0,98.87135"
+       id="path7755"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7757"
+       d="m 184.55994,345.70113 c 0,98.52566 0,98.87135 0,98.87135"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart);marker-mid:none;marker-end:url(#Arrow2Mend)" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7759"
+       d="m 504.55994,345.51819 c 0,98.52566 0,98.87135 0,98.87135"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart);marker-mid:none;marker-end:url(#Arrow2Mend)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:15.99999979, 3.99999996, 1.99999997, 3.99999996;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart);marker-mid:none;marker-end:url(#Arrow2Mend)"
+       d="m 59.373461,899.39247 c 76.080519,0 76.347459,0 76.347459,0"
+       id="path7761"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7765"
+       d="m 59.373461,864.64247 c 76.080519,0 76.347459,0 76.347459,0"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart);marker-mid:none;marker-end:url(#Arrow2Mend)" />
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="148.47922"
+       y="873.95319"
+       id="text7767"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7769"
+         x="148.47922"
+         y="873.95319">Flujo real de la comunicación</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7771"
+       y="909.30151"
+       x="148.47922"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"><tspan
+         y="909.30151"
+         x="148.47922"
+         id="tspan7773"
+         sodipodi:role="line">Flujo lógico de la comunicación</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="738.65973"
+       y="288.7196"
+       id="text7795"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="741.88629"
+         y="288.7196"
+         id="tspan7797">Capa de </tspan><tspan
+         sodipodi:role="line"
+         x="738.65973"
+         y="323.7196"
+         id="tspan7805">función</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7799"
+       y="513.57959"
+       x="738.65973"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"><tspan
+         id="tspan7801"
+         y="513.57959"
+         x="741.88629"
+         sodipodi:role="line">Capa de </tspan><tspan
+         y="548.57959"
+         x="738.65973"
+         sodipodi:role="line"
+         id="tspan7803">dispositivo USB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="738.65973"
+       y="730.71161"
+       id="text7807"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="741.88629"
+         y="730.71161"
+         id="tspan7809">Capa de </tspan><tspan
+         id="tspan7811"
+         sodipodi:role="line"
+         x="738.65973"
+         y="765.71161">interfaz USB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="183.25293"
+       y="185.44928"
+       id="text9029"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan9035"
+         sodipodi:role="line"
+         x="183.25293"
+         y="185.44928">HOST</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="508.14291"
+       y="185.44928"
+       id="text9046"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="508.14291"
+         y="185.44928"
+         id="tspan9048">Dispositivo físico</tspan></text>
+  </g>
+</svg>

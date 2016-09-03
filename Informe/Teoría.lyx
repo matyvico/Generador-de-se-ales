@@ -1,0 +1,147 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Resumen teórico USB
+\end_layout
+
+\begin_layout Section*
+Descriptores
+\end_layout
+
+\begin_layout Standard
+Son estructuras de datos que le permiten al HOST aprender sobre el dispositivo.
+ Cada descriptor contiene información del dispositivo como un todo o sobre
+ una parte específica de este.
+ TODOS los dispositivos USB DEBEN responder para los pedidos del HOST sobre
+ los descriptores USB estándar.
+\end_layout
+
+\begin_layout Standard
+Existen varios tipos de descriptores que pueden ser de uso obligatorio (o
+ no) y que definen distintos aspectos de funcionamiento del USB del dispositivo.
+ Los mas comunes son los de: 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Dispositivo (obligatorio)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Configuración (obligatorio)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+String (opcional, texto descriptivo)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Interfaz (obligatorio)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Endpoint (obligatorio para usar otro endpoint además del de configuración)
+\end_layout
+
+\begin_layout Standard
+Excepto para dispositivos compuestos, cada dispositivo contiene SOLO un
+ descriptor de dispositivo que contiene la información de este y especifiica
+ el número de configuraciones que este soporta.
+ Para cada configuración este deberá contar con un descriptor de configuración
+ con información sobre el consumo de energía del dispositivo, el número
+ de interfaces que esta configuración soporta y para cada interfáz a su
+ vez se deberá contar con un descriptor de interfáz que especifique el número
+ de endpoints en cada una de ellas.
+ Finalmente cada endpoint tiene un descriptor de endpoint que contiene la
+ información necesaria para comunicarse con este.
+ Una interfáz sin un descriptor de endpoint utiliza el endpoint de configuración
+ (0), el dispositivo debe devolverlo asó como también todos los de interfáz,
+ endpoin y otros descriptores subordinados tantos como bytes haya solicitado
+ el HOST.
+ El HOST no puede solicitar solo un endpoint (su descriptor) en particular.
+\end_layout
+
+\begin_layout Standard
+En general la estructura de los descriptores es la misma en cuanto a los
+ datos que contiene y el orden en el que estos se presentan, este es:
+\end_layout
+
+\begin_layout Itemize
+bLength: Byte que da la longitud del descriptor en bytes
+\end_layout
+
+\begin_layout Itemize
+bDescriptorType: Byte que identifica el tipo de descriptor
+\end_layout
+
+\begin_layout Standard
+El resto de los campos varían en función del tipo de descriptor (device,
+ configuration, interface, endpoint, string, etc).
+\end_layout
+
+\end_body
+\end_document

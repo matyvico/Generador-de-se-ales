@@ -1,0 +1,10 @@
+_Write2USART: CODE, 1044 0 28
+_Open2USART: CODE, 638 0 120
+_Interrupcion: CODE, 8 0 198
+_main: CODE, 210 0 428
+__initialization: CODE, 986 0 24
+_Read1USART: CODE, 930 0 56
+_Write1USART: CODE, 1016 0 28
+_Read2USART: CODE, 874 0 56
+_Open1USART: CODE, 758 0 116
+Total: 1054

@@ -1,0 +1,24 @@
+[PROJECT]
+Target=C:\Users\Matías\Google Drive\Electronica\Quinto Año\Técnicas Digitales III\Proyecto USB\Programa\PIC\USB.hex
+Development_Mode=
+Processor_Text=PIC18F4550
+ToolSuite=CCS
+[C:\Users\Matías\Google Drive\Electronica\Quinto Año\Técnicas Digitales III\Proyecto USB\Programa\PIC\USB]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=C:\Users\Matías\Google Drive\Electronica\Quinto Año\Técnicas Digitales III\Proyecto USB\Programa\PIC\USB.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Units]
+Link=0
+Count=1
+1=C:\Users\Matías\Google Drive\Electronica\Quinto Año\Técnicas Digitales III\Proyecto USB\Programa\PIC\USB
+[Opened Files]
+1=USB.c
+2=USB.h
+3=

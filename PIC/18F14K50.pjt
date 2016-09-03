@@ -1,0 +1,64 @@
+[PROJECT]
+Target=18F14K50.hex
+Development_Mode=
+Processor_Text=PIC18F14K50
+ToolSuite=CCS
+Processor=0xA145
+[C:\Users\Matías\Google Drive\Electronica\Quinto Año\Técnicas Digitales III\Proyecto USB\Programa\PIC\18F14K50]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=C:\Users\Matías\Google Drive\Electronica\Quinto Año\Técnicas Digitales III\Proyecto USB\Programa\PIC\18F14K50.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Units]
+Link=0
+Count=1
+1=18F14K50
+[Opened Files]
+1=18F14K50.c
+2=rr2_USB_Monitor.h
+3=
+4=usb.h
+5=usb.c
+6=math.h
+7=stdlib.h
+8=pic18_usb.c
+9=
+[Directories]
+Include=C:\Program Files (x86)\PICC\devices\;
+Library=
+LinkerScript=
+[defines]
+enabled=0
+D1=
+V1=
+[fileformats]
+forcecoff=0
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+allerrors=1
+allwarnings=1
+stayupne=0
+stayupoe=0
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+[18F14K50.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=

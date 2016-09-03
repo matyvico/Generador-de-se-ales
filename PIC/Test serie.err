@@ -1,0 +1,4 @@
+>>> Warning 201 "Test serie.c" Line 21(1,1): Assignment inside relational expression
+      Memory usage:   ROM=2%      RAM=2% - 2%
+      0 Errors,  1 Warnings.
+Build Successful.

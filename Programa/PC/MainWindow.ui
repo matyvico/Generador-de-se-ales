@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>230</width>
+    <height>230</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>230</width>
+    <height>230</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>230</width>
+    <height>230</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>10000</width>
+    <height>10000</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>UTN - Señales</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icono.jpg</normaloff>icono.jpg</iconset>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>101</width>
+      <height>116</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Ajuste del tipo de señal</string>
+    </property>
+    <property name="title">
+     <string>Tipo de señal</string>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>21</y>
+       <width>72</width>
+       <height>88</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QRadioButton" name="senoidal">
+        <property name="statusTip">
+         <string>Ajuste del tipo de señal (senoidal)</string>
+        </property>
+        <property name="text">
+         <string>Senoidal</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="triangular">
+        <property name="statusTip">
+         <string>Ajuste del tipo de señal (triangular)</string>
+        </property>
+        <property name="text">
+         <string>Triangular</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rampa">
+        <property name="statusTip">
+         <string>Ajuste del tipo de señal (rampa)</string>
+        </property>
+        <property name="text">
+         <string>Rampa</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="cuadrada">
+        <property name="statusTip">
+         <string>Ajuste del tipo de señal (cuadrada)</string>
+        </property>
+        <property name="text">
+         <string>Cuadrada</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Frecuencia</string>
+    </property>
+    <widget class="QSpinBox" name="frecuencia">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string>Ajuste de frecuencia de la señal</string>
+     </property>
+     <property name="buttonSymbols">
+      <enum>QAbstractSpinBox::PlusMinus</enum>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="suffix">
+      <string> Hz</string>
+     </property>
+     <property name="maximum">
+      <number>10000</number>
+     </property>
+     <property name="value">
+      <number>5000</number>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="generar">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>15</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Inicia la señal configurada</string>
+    </property>
+    <property name="text">
+     <string>Generar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pausar">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>45</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Pausa la señal generada</string>
+    </property>
+    <property name="text">
+     <string>Pausar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="borrar">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>75</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Pausa y borra la señal configurada</string>
+    </property>
+    <property name="text">
+     <string>Borrar</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>100</y>
+      <width>101</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Offset</string>
+    </property>
+    <widget class="QSlider" name="offset">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>80</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>0</string>
+     </property>
+     <property name="statusTip">
+      <string>Ajusta el nivel de offset de la señal</string>
+     </property>
+     <property name="minimum">
+      <number>-100</number>
+     </property>
+     <property name="maximum">
+      <number>100</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="invertedAppearance">
+      <bool>true</bool>
+     </property>
+     <property name="tickPosition">
+      <enum>QSlider::TicksAbove</enum>
+     </property>
+     <property name="tickInterval">
+      <number>20</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>46</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-100%</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>40</y>
+       <width>46</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>+100%</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>46</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Offset = </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lOffset">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>60</y>
+       <width>36</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0 %</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>15</y>
+      <width>71</width>
+      <height>166</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Amplitud</string>
+    </property>
+    <widget class="QSlider" name="amplitud">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>20</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string>Ajusta la amplitud pico-pico</string>
+     </property>
+     <property name="maximum">
+      <number>100</number>
+     </property>
+     <property name="sliderPosition">
+      <number>50</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="tickPosition">
+      <enum>QSlider::TicksBelow</enum>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>34</width>
+       <height>145</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>100 %</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>90 %</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>80%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>70%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>60%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>50%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>40%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>30%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>20%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string>10%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>0%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>230</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuEditar">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="tearOffEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>Editar</string>
+    </property>
+    <addaction name="actionConfiguracion"/>
+   </widget>
+   <widget class="QMenu" name="menuAyuda">
+    <property name="title">
+     <string>Ayuda</string>
+    </property>
+    <addaction name="actionAcerca_de"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuEditar"/>
+   <addaction name="menuAyuda"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+   <property name="statusTip">
+    <string>Salir de la aplicación</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionConfiguracion">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Configuracion</string>
+   </property>
+   <property name="statusTip">
+    <string>Configuración del generador</string>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionAcerca_de">
+   <property name="text">
+    <string>Acerca de...</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>senoidal</tabstop>
+  <tabstop>triangular</tabstop>
+  <tabstop>rampa</tabstop>
+  <tabstop>cuadrada</tabstop>
+  <tabstop>frecuencia</tabstop>
+  <tabstop>offset</tabstop>
+  <tabstop>amplitud</tabstop>
+  <tabstop>generar</tabstop>
+  <tabstop>pausar</tabstop>
+  <tabstop>borrar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

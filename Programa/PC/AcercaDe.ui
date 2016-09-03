@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AcercaWindow</class>
+ <widget class="QDialog" name="AcercaWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>160</width>
+    <height>210</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>160</width>
+    <height>210</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>160</width>
+    <height>210</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Acerca de...</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icono.jpg</normaloff>icono.jpg</iconset>
+  </property>
+  <widget class="QPushButton" name="bSalir">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>185</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>5</y>
+     <width>161</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="undoRedoEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="lineWrapMode">
+    <enum>QPlainTextEdit::WidgetWidth</enum>
+   </property>
+   <property name="plainText">
+    <string>              UTN - FRVM
+
+Generador de señales por USB
+
+Grupo: 
+- Griffa, Joaquín Daniel
+- Martino, Ignacio
+- Vico, Matías Daniel
+
+Técnicas Digitales III
+Medidas electrónicas II 
+
+Año 2013</string>
+   </property>
+   <property name="textInteractionFlags">
+    <set>Qt::NoTextInteraction</set>
+   </property>
+   <property name="backgroundVisible">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

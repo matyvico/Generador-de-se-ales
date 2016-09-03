@@ -1,0 +1,10 @@
+>>> Warning 225 "c:\users\matías\google drive\electronica\quinto año\técnicas digitales iii\proyecto usb\programa\pic\pic18_usb.c" Line 330(18,71): Duplicate #define
+>>> Warning 225 "c:\users\matías\google drive\electronica\quinto año\técnicas digitales iii\proyecto usb\programa\pic\pic18_usb.c" Line 331(19,22): Duplicate #define
+>>> Warning 225 "c:\users\matías\google drive\electronica\quinto año\técnicas digitales iii\proyecto usb\programa\pic\pic18_usb.c" Line 334(26,31): Duplicate #define
+>>> Warning 203 "c:\users\matías\google drive\electronica\quinto año\técnicas digitales iii\proyecto usb\programa\pic\pic18_usb.c" Line 628(1,1): Condition always TRUE
+>>> Warning 216 "18F14K50.c" Line 125(0,1): Interrupts disabled during call to prevent re-entrancy:  (usb_token_reset)
+>>> Warning 216 "18F14K50.c" Line 125(0,1): Interrupts disabled during call to prevent re-entrancy:  (usb_flush_out)
+>>> Warning 202 "18F14K50.c" Line 66(5,6): Variable never used:   j
+      Memory usage:   ROM=23%      RAM=22% - 26%
+      0 Errors,  7 Warnings.
+Build Successful.

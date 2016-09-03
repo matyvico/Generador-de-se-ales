@@ -1,0 +1,165 @@
+# EESchema Netlist Version 1.1 created  26/02/2014 09:36:00 a.m.
+(
+ ( /530CAEA0 PIN_ARRAY_2X1 OUT1 CONN_2
+  ( 1 N-000001 )
+  ( 2 N-000001 )
+ )
+ ( /530CA028 PIN_ARRAY_4x1 P1 CONN_4
+  ( 1 GND )
+  ( 2 N-000018 )
+  ( 3 /OFFSET )
+  ( 4 VCC )
+ )
+ ( /530CAF07 PIN_ARRAY_2X1 PRUEBA1 CONN_2
+  ( 1 VEE )
+  ( 2 VCC )
+ )
+ ( /530DD432 R3 R1 1k
+  ( 1 N-000019 )
+  ( 2 N-000004 )
+ )
+ ( /530DD444 R3 R2 1k
+  ( 1 N-000018 )
+  ( 2 N-000020 )
+ )
+ ( /530DD44A R3 R3 1k
+  ( 1 N-000004 )
+  ( 2 /OFFSET )
+ )
+ ( /530DD453 R3 R4 1k
+  ( 1 N-000007 )
+  ( 2 N-000016 )
+ )
+ ( /530DD457 R3 R5 1k
+  ( 1 N-000016 )
+  ( 2 N-000014 )
+ )
+ ( /530DD465 R3 R6 1k
+  ( 1 N-000005 )
+  ( 2 N-000012 )
+ )
+ ( /530DD45E R3 R7 1k
+  ( 1 N-000013 )
+  ( 2 N-000005 )
+ )
+ ( /530DD46F PIN_ARRAY_3X1 RV1 5k
+  ( 1 N-000020 )
+  ( 2 N-000020 )
+  ( 3 N-000015 )
+ )
+ ( /530C9FA1 DIP-14__300_ELL U1 TL084
+  ( 1 N-000019 )
+  ( 2 N-000015 )
+  ( 3 GND )
+  ( 4 VCC )
+  ( 5 GND )
+  ( 6 N-000004 )
+  ( 7 N-000007 )
+  ( 8 N-000013 )
+  ( 9 N-000013 )
+  ( 10 N-000014 )
+  ( 11 VEE )
+  ( 12 N-000012 )
+  ( 13 N-000006 )
+  ( 14 N-000006 )
+ )
+ ( /530C9FA4 C1 U2 6.8n
+  ( 1 N-000016 )
+  ( 2 N-000013 )
+ )
+ ( /530CA103 C1 U3 4.7n
+  ( 1 N-000014 )
+  ( 2 GND )
+ )
+ ( /530CA105 C1 U4 1.2n
+  ( 1 N-000012 )
+  ( 2 GND )
+ )
+ ( /530CA107 C1 U5 15n
+  ( 1 N-000005 )
+  ( 2 N-000006 )
+ )
+ ( /530C9F99 DIP-8__300_ELL U6 TL082A
+  ( 1 N-000001 )
+  ( 2 N-000001 )
+  ( 3 N-000006 )
+  ( 4 VEE )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component U2
+ SM*
+ C?
+ C1-1
+$endlist
+$component U3
+ SM*
+ C?
+ C1-1
+$endlist
+$component U4
+ SM*
+ C?
+ C1-1
+$endlist
+$component U5
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}

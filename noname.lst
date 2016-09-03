@@ -1,0 +1,43 @@
+eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: 26/02/2014 08:50:27 a.m.
+
+#Componentes ( orden = Referencia )
+| OUT1       CONN_2      
+| P1         CONN_4      
+| PRUEBA1    CONN_2      
+| R1         1k          
+| R2         1k          
+| R3         1k          
+| R4         1k          
+| R5         1k          
+| R6         1k          
+| R7         1k          
+| RV1        5k          
+| U1         TL084       
+| U2         6.8n        
+| U3         4.7n        
+| U4         1.2n        
+| U5         15n         
+| U6         TL082A      
+#Fin Componentes
+
+#Componentes ( orden = Valor )
+| 1.2n         U4        
+| 15n          U5        
+| 1k           R1        
+| 1k           R2        
+| 1k           R3        
+| 1k           R4        
+| 1k           R5        
+| 1k           R6        
+| 1k           R7        
+| 4.7n         U3        
+| 5k           RV1       
+| 6.8n         U2        
+| CONN_2       OUT1      
+| CONN_2       PRUEBA1   
+| CONN_4       P1        
+| TL082A       U6        
+| TL084        U1        
+#Fin Componentes
+
+#Fin de Lista

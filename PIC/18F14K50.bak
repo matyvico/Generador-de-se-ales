@@ -1,0 +1,123 @@
+#INCLUDE <18F14K50.h>
+
+#FUSES HS
+#FUSES PLLEN
+#FUSES PCLKEN
+#FUSES CPUDIV1
+#FUSES USBDIV1
+#FUSES NOFCMEN
+#FUSES NOWDT
+#FUSES WDT128
+#FUSES NOIESO
+#FUSES MCLR
+#FUSES NOLVP
+#FUSES NOXINST
+#FUSES NODEBUG
+#FUSES PUT
+#FUSES NODEBUG
+#FUSES NOBROWNOUT
+#FUSES NOPROTECT
+//REVISAR ESTOS FUSES, FUERON AGREGADOS DESPUES, SIN ESTOS ANDA TODO BIEN
+//#FUSES NOCPD, NOSTVREN
+//#FUSES NOWRT, NOWRTD, NOWRTC, NOWRTB
+//#FUSES NOEBTR, NOEBTRB, NOCPB
+
+#USE delay(clock=48000000)//, crystal=12000000)
+#USE rs232(baud=57600, parity=N, xmit=PIN_B7, rcv=PIN_B5 ,bits=8, ERRORS)//ANDAAAAAAAAA!!!!!!!!!!!!!
+
+#DEFINE USB_HID_DEVICE     FALSE             // deshabilitamos el uso de las directivas HID
+#DEFINE USB_EP1_TX_ENABLE  USB_ENABLE_BULK   // turn on EP1(EndPoint1) for IN bulk/interrupt transfers
+#DEFINE USB_EP1_RX_ENABLE  USB_ENABLE_BULK   // turn on EP1(EndPoint1) for OUT bulk/interrupt transfers
+#DEFINE USB_EP1_TX_SIZE    32                // size to allocate for the tx endpoint 1 buffer
+#DEFINE USB_EP1_RX_SIZE    32                // size to allocate for the rx endpoint 1 buffer
+
+#INCLUDE <pic18_usb.h>                      // Microchip PIC18Fxx5x Hardware layer for CCS's PIC USB driver
+#INCLUDE <rr2_USB_Monitor.h>      // Configuración del USB y los descriptores para este dispositivo
+#INCLUDE <usb.c>                            // handles usb setup tokens and get descriptor reports
+#INCLUDE <math.h>
+#INCLUDE <stdlib.h>
+
+#DEFINE Enciende    Output_High
+#DEFINE Apaga       Output_Low
+#DEFINE Conmuta     Output_Toggle
+
+#DEFINE LED_ROJO    PIN_C0 //Conectado
+#DEFINE LED_VERDE   PIN_C1 //Reconocido
+#DEFINE P4550       PIN_C2 //Reset Digital
+
+#DEFINE Tipo        recbuf[0]// = '0'
+#DEFINE Frec_4      recbuf[1]// = '0'//MSB DE FREC
+#DEFINE Frec_3      recbuf[2]// = '5'
+#DEFINE Frec_2      recbuf[3]// = '0'
+#DEFINE Frec_1      recbuf[4]// = '0'
+#DEFINE Frec_0      recbuf[5]// = '0'
+#DEFINE Offset_3    recbuf[6]// = '+' //MSB DE OFF (Signo)
+#DEFINE Offset_2    recbuf[7]// = '0' 
+#DEFINE Offset_1    recbuf[8]// = '0'
+#DEFINE Offset_0    recbuf[9]// = '0'
+#DEFINE Control     recbuf[10]// = '1'
+
+#byte ANSEL = 0xF7E
+#byte ANSELH = 0xF7F
+
+const int8 Lenbuf = 12;// 11 bytes + caracter nulo
+
+int i;
+int j;
+
+char recbuf[Lenbuf] = {'0','0','0','0','0','0','0','0','0','0','0'};
+char envbuf[Lenbuf] = {'0','0','0','0','0','0','0','0','0','0','0'};
+char letra;
+
+void main(void){
+    
+    ANSEL = 0x00; 
+    ANSELH = 0x00;
+    
+    enable_interrupts(GLOBAL);
+
+    Enciende(P4550);
+    
+    Apaga(LED_ROJO);
+    Apaga(LED_VERDE);
+    delay_ms(100);
+    Enciende(LED_ROJO);
+
+    usb_init();
+    usb_task();
+    usb_wait_for_enumeration();
+
+    while (TRUE){
+        if(usb_enumerated()){
+            Apaga(LED_ROJO);
+            Enciende(LED_VERDE);
+            if (usb_kbhit(1)){
+                usb_get_packet(1, recbuf, Lenbuf); // Recibe Packet
+
+                strcpy(envbuf,recbuf); //Podría borrarse recbuf y
+                                       // dejarlo libre para el proximo byte
+                recbuf[0] = '0';
+                recbuf[1] = '0';
+                recbuf[2] = '0';
+                recbuf[3] = '0';
+                recbuf[4] = '0';
+                recbuf[5] = '0';
+                recbuf[6] = '0';
+                recbuf[7] = '0';
+                recbuf[8] = '0';
+                recbuf[9] = '0';
+                recbuf[10] = '0';
+                
+                Apaga(P4550);
+                delay_ms(5);
+                Enciende(P4550);
+                delay_ms(200);
+                
+                for(i=0;i<=10;i++){
+                    letra = envbuf[i];
+                    putc(letra);
+                }
+            }
+        }
+    }
+}
