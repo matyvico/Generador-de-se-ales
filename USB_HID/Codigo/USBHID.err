@@ -1,0 +1,13 @@
+*** Error 18 "USBHID.c" Line 11(10,58): File can not be opened
+    Not in "C:\Program Files (x86)\PICC\devices\usb.c"
+    Not in project "C:\Users\Matías\Desktop\USB_HID\Codigo\usb.c"
+*** Error 12 "USBHID.c" Line 27(12,13): Undefined identifier  -- usb_init
+*** Error 12 "USBHID.c" Line 28(12,13): Undefined identifier  -- usb_task
+*** Error 12 "USBHID.c" Line 29(28,29): Undefined identifier  -- usb_wait_for_enumeration
+*** Error 12 "USBHID.c" Line 35(15,16): Undefined identifier  -- usb_task
+*** Error 12 "USBHID.c" Line 36(25,26): Undefined identifier  -- usb_enumerated
+*** Error 12 "USBHID.c" Line 40(27,28): Undefined identifier  -- usb_put_packet
+*** Error 12 "USBHID.c" Line 42(23,24): Undefined identifier  -- usb_kbhit
+*** Error 12 "USBHID.c" Line 45(26,27): Undefined identifier  -- usb_get_packet
+      9 Errors,  0 Warnings.
+Build Failed.
